@@ -1,0 +1,40 @@
+.topnav{
+    background-color: skyblue;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color:white;
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color:gray;
+    color:rgb(7, 7, 7);
+}
+
+.topnav a.active{
+    background-color:black;
+    color: white;
+}
+
+.column{
+    float: left;
+    width: 50%;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer{
+background-color: skyblue;
+}
+
+/*Design By Maulana Hasan*/
